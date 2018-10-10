@@ -8,4 +8,8 @@ public class Dilemma {
 
     }
 
+    public void place(){
+        
+    }
+
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button id="bck" layoutX="337.0" layoutY="203.0" mnemonicParsing="false" style="-fx-background-color: gray;" text="Back" textFill="WHITE" AnchorPane.leftAnchor="337.0" />
+      <Slider layoutX="337.0" layoutY="131.0" prefHeight="14.0" prefWidth="226.0" />
+      <Slider layoutX="337.0" layoutY="153.0" prefHeight="14.0" prefWidth="226.0" />
+      <Slider layoutX="337.0" layoutY="174.0" prefHeight="14.0" prefWidth="226.0" />
+      <Button id="save" layoutX="406.0" layoutY="203.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" style="-fx-background-color: orange;" text="Speichern" textFill="WHITE" />
+   </children>
+</AnchorPane>

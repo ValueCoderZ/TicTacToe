@@ -3,6 +3,7 @@ package sample;
 import SceneManagers.Menu;
 import javafx.application.Application;
 import javafx.event.EventHandler;
+import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -48,8 +49,6 @@ public class Main extends Application {
     }
 
     public static void playSoundtrack(String sound){
-
-        /*
         if(Main.player != null){
             Main.player.stop();
         }
@@ -60,7 +59,6 @@ public class Main extends Application {
         player.setAutoPlay(true);
 
         player.setVolume(0.025);
-        */
     }
 
     public static void main(String[] args) {

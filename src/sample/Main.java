@@ -30,7 +30,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         stage = primaryStage;
 
-        stage.setTitle("TicTacToe");
+        stage.setTitle("TicTacToe | Patch 1");
 
         new Menu(primaryStage);
 
